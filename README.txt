@@ -1,12 +1,12 @@
 HOW TO RUN:
 
-bash get_wiki_corpus_recurs.sh [language] [category] [output dir] [recurs: T/F] [max articles]
+bash get_wiki_corpus_main.sh [language] [category] [output dir] [recurs: T/F] [max articles]
 
 	1: language: target language/language of desired category. Language should be written in English.
 		e.g.: "French", "Spanish"
 	2: category: category to be retrieved from Wikipedia in target language, not English. In quotes if several words. 
 		e.g.: "Physique" for FR, "Physics" for EN
-	3: output dir: output directory where the final extracted articles will be placed
+	3: output dir: output directory where the final extracted articles will be placed. In quotes if several words.
 	4: recurs: TRUE if want to recursively go into all found subcategories and retrieve articles there
 	       	FALSE if only want to retrieve articles in the stated category (no recursion)
 	
