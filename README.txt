@@ -19,3 +19,6 @@ EXAMPLE:
 FILES GENERATED:
 	- dir [output dir]/: all extracted articles 
 	- wget_logfile: log file for wget command
+	
+WIKIEXTRACTOR:
+	using WikiExtractor.py script by https://github.com/attardi/wikiextractor 
